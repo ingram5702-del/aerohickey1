@@ -6,10 +6,10 @@
 
 Открой репозиторий GitHub -> `Settings` -> `Secrets and variables` -> `Actions` -> `Secrets` и добавь:
 
-- `ANDROID_KEYSTORE_BASE64` - upload keystore в base64.
-- `ANDROID_KEYSTORE_PASSWORD` - пароль keystore.
-- `ANDROID_KEY_ALIAS` - alias ключа.
-- `ANDROID_KEY_PASSWORD` - пароль ключа.
+- `KEYSTORE_BASE64` - upload keystore в base64.
+- `KEYSTORE_PASSWORD` - пароль keystore.
+- `KEY_ALIAS` - alias ключа.
+- `KEY_PASSWORD` - пароль ключа.
 - `PLAY_SERVICE_ACCOUNT_JSON` - JSON сервисного аккаунта Google Play Console. Можно добавить позже, после первого ручного AAB.
 
 На macOS keystore можно преобразовать в base64 так:
