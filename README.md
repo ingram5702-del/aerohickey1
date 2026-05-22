@@ -55,3 +55,9 @@
 - Нажми `Scan QR` в главном меню.
 - Разреши доступ к камере.
 - Наведи камеру на QR-код. Если QR содержит ссылку, кнопка `Open` откроет её.
+
+## GitHub AAB и Google Play
+- Workflow `Android Release` собирает signed `.aab` в GitHub Actions.
+- Первый AAB скачивается из Actions и загружается в Google Play Console вручную.
+- После первого релиза можно включить автозагрузку следующих обновлений в Google Play через repository variable `GOOGLE_PLAY_DEPLOY_ENABLED=true`.
+- Подробная инструкция: `docs/google-play-release.md`.
