@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "616116629833",
+    "project_id": "aerohockey111",
+    "storage_bucket": "aerohockey111.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616116629833:android:eefd22d1c749d481abaa98",
+        "android_client_info": {
+          "package_name": "com.aerogo.apps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuC3Thmm0abHmcvgeIFjkvaKuiU_Nvegs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
