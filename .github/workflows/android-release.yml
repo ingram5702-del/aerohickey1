@@ -122,7 +122,7 @@ jobs:
         uses: r0adkll/upload-google-play@v1
         with:
           serviceAccountJsonPlainText: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
-          packageName: com.appwizard.airhockey
+          packageName: com.aerogo.apps
           releaseFiles: release/*.aab
           track: ${{ inputs.track }}
           status: ${{ inputs.release_status }}
@@ -132,7 +132,7 @@ jobs:
         uses: r0adkll/upload-google-play@v1
         with:
           serviceAccountJsonPlainText: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
-          packageName: com.appwizard.airhockey
+          packageName: com.aerogo.apps
           releaseFiles: release/*.aab
           track: ${{ vars.GOOGLE_PLAY_TRACK || 'internal' }}
           status: ${{ vars.GOOGLE_PLAY_RELEASE_STATUS || 'completed' }}
