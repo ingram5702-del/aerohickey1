@@ -20,7 +20,7 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.appwizard.airhockey"
+        applicationId = "com.aerogo.apps"
         minSdk = 26
         targetSdk = 35
         versionCode = providers.environmentVariable("VERSION_CODE")
