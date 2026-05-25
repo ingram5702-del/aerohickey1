@@ -652,7 +652,7 @@ private fun MenuScreen(
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
             ScreenHeader(
-                title = "NEON HOCKEY",
+                title = "NEON HOCKEY SPORT",
                 subtitle = "Fast arcade air hockey"
             )
 
@@ -1584,11 +1584,11 @@ private class QrAnalyzer(
 }
 
 private fun sendFeedbackEmail(context: Context, message: String, imageUri: Uri?) {
-    val body = message.ifBlank { "Feedback from Neon Hockey" }
+    val body = message.ifBlank { "Feedback from Neon Hockey Sport" }
     val intent = Intent(Intent.ACTION_SEND).apply {
         type = if (imageUri == null) "message/rfc822" else "image/*"
         putExtra(Intent.EXTRA_EMAIL, arrayOf(FEEDBACK_EMAIL))
-        putExtra(Intent.EXTRA_SUBJECT, "Neon Hockey feedback")
+        putExtra(Intent.EXTRA_SUBJECT, "Neon Hockey Sport feedback")
         putExtra(Intent.EXTRA_TEXT, body)
         if (imageUri != null) {
             putExtra(Intent.EXTRA_STREAM, imageUri)

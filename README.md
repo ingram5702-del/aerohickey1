@@ -1,4 +1,4 @@
-# Neon Hockey (Android, Kotlin, Compose)
+# Neon Hockey Sport (Android, Kotlin, Compose)
 
 Упрощенная игра аэрохоккей с двумя режимами: `Vs CPU` и `2 Players`.
 
